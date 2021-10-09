@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'node-portfolio-lukefreeman'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_19E6EB72419C4F709A5E6B5BC35BDB77 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D5F355EE6FEC41B3BBB27679F094E359 }}
           package: .

@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+.buttons_for_projects {
+    text-align: center;
+}
+
+
+hr {
+    height:2px; 
+    width:50%; 
+    border-width:10; 
+    color:red; 
+    background-color:red
+}
+
+.put_on_bottom {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    margin-left: 42%;
+}

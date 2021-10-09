@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Luke Freeman
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dice Roll</title>
+</head>
+<body onload="roll_the_dice()">
+    <h1>Roll The Dice</h1>
+
+    <div class="box">
+        <p id="current_number"></p>
+    </div>
+
+    <br><br>
+
+    <input id="help_btn" type="button" value="Help Me!!">
+
+    <input id="roll_button" autofocus type="button" value="Roll The Dice">
+
+    <h3>Previous Roll</h3>
+    <p id="prev_rolls"></p>
+
+    <script src="diceroll.js"></script>
+</body>
+</html>

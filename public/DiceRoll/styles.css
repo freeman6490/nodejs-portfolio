@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 150px;
+}
+
+.box {
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+}
+
+p {
+    padding: 10px;
+}

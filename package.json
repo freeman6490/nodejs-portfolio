@@ -1,0 +1,20 @@
+{
+  "name": "node-portfolio",
+  "version": "1.0.0",
+  "description": "node protfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman6490/node-port-final.git"
+  },
+  "author": "luke freeman",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "nodemon": "^1.19.4"
+  }
+}

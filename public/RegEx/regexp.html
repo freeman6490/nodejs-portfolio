@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Ex Tester</title>
+
+    <style>
+        .project {
+            text-align: center;
+            display: block;
+            padding-top: 10%;
+        }
+
+        input {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+<div class="project">
+    <h1>Regular Expression Tester</h1>
+    <form>
+        Enter Regular Expression: <input type="text" name="first_item" id="first_item"> <br> <br>
+        Enter String To Check: <input type="text" name="second_item" id="second_item"> <br> <br>
+        <button type="button" onclick="reg_ex_tester()">Submit</button>
+    </form>
+
+    <script>
+
+        function reg_ex_tester() {
+            //i was getting some weird errors about regex.test() not being a function, i found this to help me 
+            //https://stackoverflow.com/questions/23456586/typeerror-pattern-test-is-not-a-function/23456603
+            var regex = new RegExp(document.getElementById("first_item").value);
+            var str = document.getElementById("second_item").value;
+            var result = regex.test(str).toString().toUpperCase();
+            document.getElementById("results").innerHTML = result;
+        }
+
+    </script>
+    <p id="results"></p>
+</div>
+</body>
+</html>
